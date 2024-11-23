@@ -1,0 +1,113 @@
+.featured-courses {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .featured-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .featured-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .course-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+
+  
+  .course-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .course-info {
+    padding: 1rem;
+  }
+  
+  .course-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #fff;
+    background: #6c757d;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .health-&-fitness {
+    background: #28a745;
+  }
+  
+  .personal-development {
+    background: #f8c471;
+  }
+  
+  .productivity {
+    background: #007bff;
+  }
+  
+  .music {
+    background: #ff6347;
+  }
+  
+  .course-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .course-instructor {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .course-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #888;
+    margin: 0.5rem 0;
+  }
+  
+  .course-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .course-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .current-price {
+    color: #28a745;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  

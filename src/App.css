@@ -1,0 +1,155 @@
+*{
+  font-family: Inter;
+}
+nav {
+  display: flex;
+  width: Fixed (1, 920px) px;
+  height: Hug (52px) px;
+  padding: 0px 32px 0px 32px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+
+  background-color: #1d2026;
+  color: #ffffff;
+  font-family: Inter;
+  padding: 20px;
+}
+.nav-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-right {
+  /* styleName: Body Medium/500; */
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  /* letter-spacing: -0.01em; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Navbar End */
+
+/* top-bar start */
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+.top-bar-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.top-bar-left input, select {
+  padding: 8px;
+}
+.top-bar-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.top-bar-right button{
+   padding: 8px;
+   border: none;
+   color: orange;
+
+}
+/* Hero section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 50px;
+  background-color: #f8f8f8;
+}
+
+.hero-section img {
+  max-width: 600px;
+  /* border-radius: 10px; */
+}
+
+.hero-section p {
+  margin: 20px 0;
+  color: #7c7c7c;
+  font-size: 1.2rem;
+}
+
+.hero-section button {
+  background-color: #f15a24;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-section div {
+  max-width: 600px;
+}
+/* Browse Tabs Start */
+
+.category-tabs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
+.category-tabs .category-tab {
+       background-color: rgb(222, 245, 217);
+       padding: 0px 20px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       gap: 20px;
+     height: 90px;
+}
+#browse-top-category .heading{
+    text-align: center;
+}
+.browse-more{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.browse-more button{
+    padding: 5px;
+    border: none;
+    color: orange;
+    background-color: #fff;
+}
+/* Browse Tabs End */
+
+.instructors-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.instructor-card{
+   border: .1px solid rgb(198, 193, 193);
+}
