@@ -1,16 +1,15 @@
 .featured-courses {
-    text-align: center;
     padding: 2rem;
   }
   
   .featured-title {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-weight: bold;
     margin-bottom: 1rem;
   }
   
   .featured-description {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     color: #555;
     margin-bottom: 2rem;
   }
@@ -22,17 +21,33 @@
   }
   
   .course-card {
+    display: flex;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* border-radius: 8px; */
+    border: 0.1px solid #dfdddd;
     overflow: hidden;
     transition: transform 0.3s;
+    height: 180px;
   }
-  
+  .course-card:hover {
+    display: flex;
+    background: #fff;
+    /* border-radius: 8px; */
+    overflow: hidden;
+    transition: transform 0.3s;
+    height: 180px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .course-card-top{
+     display: flex;
+     justify-content: space-between;
+  }
 
   
   .course-image {
-    width: 100%;
+    width: 40%;
     height: 180px;
     object-fit: cover;
   }
@@ -47,7 +62,7 @@
     color: #fff;
     background: #6c757d;
     padding: 0.2rem 0.6rem;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     margin-bottom: 0.5rem;
   }
   
@@ -68,10 +83,14 @@
   }
   
   .course-title {
-    font-size: 1.2rem;
     font-weight: bold;
-    margin: 0.5rem 0;
+    margin: 0;
     color: #333;
+  }
+  .course-title:hover{
+    font-weight: bold;
+    margin: 0;
+    color: #ff3333;
   }
   
   .course-instructor {
@@ -85,6 +104,7 @@
     font-size: 0.8rem;
     color: #888;
     margin: 0.5rem 0;
+    align-items: center;
   }
   
   .course-details {
@@ -102,9 +122,7 @@
     color: #333;
   }
   
-  .current-price {
-    color: #28a745;
-  }
+  
   
   .old-price {
     text-decoration: line-through;
