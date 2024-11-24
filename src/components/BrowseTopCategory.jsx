@@ -72,10 +72,11 @@ function BrowseTopCategory() {
       <div className="category-tabs">
         {categories.map((ele, i) => (
           <div className="category-tab" key={i}>
-            <img src={ele.logo} alt={ele.category} />
+            <div className="category-logo-div"><img src={ele.logo} alt={ele.category} /></div>
+            
             <div className="category-card-right">
-            <h6>{ele.category}</h6>
-            <p>{ele.noOfCourses}</p>
+            <p>{ele.category}</p>
+            <span>{ele.noOfCourses}</span>
             </div>
            
           </div>

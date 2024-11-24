@@ -7,19 +7,19 @@ function TopBar() {
         <div className="logo-div">
           <img src="/images/logo.png" alt="" />
         </div>
-        <h5>E-tutor</h5>
+        <h3>E-tutor</h3>
         <select name="" id="">
           <option value="browse">Browse</option>
         </select>
-        <input type="text" placeholder="What do you want learn" />
+        <input type="text" placeholder="What do you want learn..." />
       </div>
 
       <div className="top-bar-right">
         <span></span>
         <span></span>
         <span></span>
-        <button>Craete Account</button>
-        <button>Sign In</button>
+        <button>Create Account</button>
+        <button className="btn-primary">Sign In</button>
       </div>
     </div>
   );

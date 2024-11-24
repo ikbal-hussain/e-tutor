@@ -11,9 +11,12 @@ function Main() {
     <main>
        <TopBar />
        <HeroSection/>
+       <div id='container-tutor'>
        <BrowseTopCategory/> 
        <FeaturedCourses />
        <InstructorSection />
+       </div>
+      
     </main>
   )
 }

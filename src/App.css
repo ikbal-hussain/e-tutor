@@ -44,6 +44,9 @@ nav {
   justify-content: space-between;
   padding: 5px;
   align-items: center;
+  background-color: rgb(254, 254, 254);
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0px;
 }
 .top-bar-left {
   display: flex;
@@ -61,23 +64,32 @@ nav {
   align-items: center;
 }
 .top-bar-right button{
-   padding: 8px;
+   padding: 8px 16px;
    border: none;
    color: orange;
+   background-color: #f7e3e3;
+   font-weight: 500;
 
 }
+.top-bar-right .btn-primary{
+  background-color: #f15a24;
+  color: #fff;
+  border: none;
+}
+
+
+/* top bar end */
 /* Hero section */
 .hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 0 0 50px;
-  background-color: #f8f8f8;
+  background-color: rgb(250, 252, 251);
 }
 
 .hero-section img {
   max-width: 600px;
-  /* border-radius: 10px; */
 }
 
 .hero-section p {
@@ -91,7 +103,6 @@ nav {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
   margin-top: 20px;
@@ -109,28 +120,63 @@ nav {
 .hero-section div {
   max-width: 600px;
 }
-/* Browse Tabs Start */
+/* Hero section end */
 
+/* Browse Tabs Start */
+/* #container-tutor{
+    
+} */
+ #browse-top-category{
+   padding-top: 40px;
+ }
 .category-tabs{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 17px;
   margin-right: 160px;
   margin-left: 160px;
-}
-
-.category-tabs .category-tab {
-       background-color: rgb(222, 245, 217);
-       padding: 0px 20px;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       gap: 20px;
-     height: 90px;
+  margin-bottom: 17px;
 }
 #browse-top-category .heading{
     text-align: center;
+    padding-bottom: 6px;
 }
+.category-tabs .category-tab {
+       background-color: #E1F7E3; 
+
+       padding: 13px;
+       display: flex;
+       /* justify-content: space-around; */
+       align-items: center;
+       gap: 10px;
+     /* height: 75px; */
+     width: 200px;
+     font-size: 12px;
+}
+
+.category-logo-div{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.category-card-right p{
+   font-weight: 500;
+   margin-bottom: 7px;
+   margin-top: 2px;
+}
+.category-card-right span{
+  margin-top: 0;
+   color: grey;
+   margin-bottom: 12px;
+   padding-bottom: 3px;
+}
+
+
+
 .browse-more{
   text-align: center;
   display: flex;
@@ -141,9 +187,11 @@ nav {
     border: none;
     color: orange;
     background-color: #fff;
+    font-weight: bold;
 }
 /* Browse Tabs End */
 
+/* Instructor section start */
 .instructors-box{
   display: flex;
   justify-content: space-around;

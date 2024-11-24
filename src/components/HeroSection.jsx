@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className="hero-section">
         <div className="hero-left">
-        Learn with Expert anytime anywhere
+        <h1>Learn with Expert anytime anywhere</h1>
       <p>
         Our mision is to help people to find the best course online and learn
         with expert anytime, anywhere.
