@@ -1,4 +1,8 @@
 
+#instructor-section{
+    margin-bottom: 80px;
+}
+
 #top-instructor-section {
   display: flex;
   justify-content: space-between;
@@ -6,7 +10,7 @@
   gap: 100px;
   background-color: #F5F7FA;
   padding: 100px;
-
+  
 }
 .top-instruc-left {
   background: linear-gradient(90deg, #cc522b 0%, #ff6636 100%);
@@ -71,6 +75,11 @@
 #bottom-instructor-section{
     text-align: center;
     padding: 50px;
+}
+.instructor-card hr{
+   color: rgb(255, 255, 255);
+   background-color:rgb(255, 255, 255);
+   height: 0.0000001px;
 }
 
 .instruc-info{

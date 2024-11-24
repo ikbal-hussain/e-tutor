@@ -68,6 +68,7 @@ function InstructorSection() {
                 <img src={ele.image} alt="" />
                 <h4>{ele.name}</h4>
                 <p>{ele.title}</p>
+                <hr />
                 <div className="instruc-info">
                 <p>⭐ {ele.rating}</p>
                 <p>{ele.noOfStudents} students</p>
