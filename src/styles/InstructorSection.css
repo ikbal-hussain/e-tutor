@@ -1,0 +1,80 @@
+
+#top-instructor-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  background-color: #F5F7FA;
+  padding: 100px;
+
+}
+.top-instruc-left {
+  background: linear-gradient(90deg, #cc522b 0%, #ff6636 100%);
+
+  width: 450px;
+}
+.top-instruc-left {
+  background: linear-gradient(90deg, #cc522b 0%, #ff6636 100%);
+  width: 430px;
+  padding: 15px 30px;
+  color: white;
+}
+.top-instruc-left button{
+  padding: 10px 20px;
+  color: rgb(243, 81, 11);
+  font-weight: bold;
+  border: none;
+}
+.top-instruc-right{
+  padding: 7px 20px;
+  /* font-weight: bold; */
+  border: none;
+  background-color: white;
+  height: 190px;
+}
+.top-instruc-right #earning-steps-grid{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ /* gap: 5px; */
+ font-size: 13px;
+}
+.top-instruc-right #earning-steps-grid div{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 10px;
+}
+.top-instruc-right #earning-steps-grid span{
+  background-color: #EBEBFF;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: rgb(74, 74, 210);
+  font-weight: bold;
+}
+.instructors-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .instructor-card{
+     border: .1px solid rgb(198, 193, 193);
+  }
+  
+
+#bottom-instructor-section{
+    text-align: center;
+    padding: 50px;
+}
+
+.instruc-info{
+    display: flex;
+    justify-content: space-around;
+}
+

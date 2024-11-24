@@ -192,12 +192,3 @@ nav {
 /* Browse Tabs End */
 
 /* Instructor section start */
-.instructors-box{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-.instructor-card{
-   border: .1px solid rgb(198, 193, 193);
-}
